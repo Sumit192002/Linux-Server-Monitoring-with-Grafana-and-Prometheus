@@ -186,15 +186,6 @@ linux-server-monitoring-grafana-prometheus/
 ├── README.md                   # Project documentation
 └── LICENSE                     # (optional)
 ```
-
----
-
-## 📷 Sample Dashboard Preview
-
-> Example Grafana dashboard (Node Exporter metrics visualization):
-
-![Grafana Dashboard](https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_dashboard.png)
-
 ---
 
 ## 🧾 Conclusion
