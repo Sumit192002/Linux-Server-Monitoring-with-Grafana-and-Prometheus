@@ -1,5 +1,8 @@
 # 🖥️ Linux Server Monitoring with Grafana and Prometheus
 
+<img width="1918" height="1028" alt="image" src="https://github.com/user-attachments/assets/a140134c-720f-4227-9906-e2cabf89f6a7" />
+
+
 ## 📘 Project Overview
 
 This project demonstrates a **real-time Linux server monitoring system** built on **WSL (Ubuntu 22.04)** using **Prometheus**, **Node Exporter**, and **Grafana**.  
