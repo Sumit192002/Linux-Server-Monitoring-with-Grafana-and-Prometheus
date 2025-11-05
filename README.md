@@ -22,11 +22,11 @@ It enables real-time visualization of system metrics like CPU, memory, disk, and
 
 ```mermaid
 graph TD;
-  A[Linux Server (WSL Ubuntu)] --> B[Node Exporter 🧩];
-  B --> C[Prometheus 📊];
-  C --> D[Grafana 📈];
-  D --> E[User Interface 👨‍💻];
-```
+  A[Linux Server (WSL Ubuntu)] --> B[Node Exporter];
+  B --> C[Prometheus];
+  C --> D[Grafana];
+  D --> E[User Interface];
+
 
 ---
 
