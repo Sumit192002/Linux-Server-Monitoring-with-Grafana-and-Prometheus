@@ -18,17 +18,6 @@ It enables real-time visualization of system metrics like CPU, memory, disk, and
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TD;
-  A[Linux Server (WSL Ubuntu)] --> B[Node Exporter];
-  B --> C[Prometheus];
-  C --> D[Grafana];
-  D --> E[User Interface];
-
-
----
 
 ## ⚙️ Tools & Technologies
 
@@ -85,7 +74,7 @@ sudo systemctl start node_exporter
 sudo systemctl status node_exporter
 ```
 
-📍 **Access metrics:** [http://localhost:9100/metrics](http://localhost:9100/metrics)
+📍 **Access metrics:** on port 9100
 
 ---
 
@@ -117,9 +106,6 @@ scrape_configs:
 ```bash
 ./prometheus --config.file=prometheus.yml
 ```
-
-📍 **Access Prometheus UI:** [http://localhost:9090](http://localhost:9090)
-
 ---
 
 ### **3️⃣ Setup Grafana**
@@ -137,18 +123,13 @@ sudo apt-get install grafana -y
 sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
 ```
-
-📍 **Access Grafana:** [http://localhost:3000](http://localhost:3000)  
-Default login: `admin / admin`
-
 ---
 
 ### **4️⃣ Connect Prometheus to Grafana**
 
 1. Open **Grafana** → Go to **⚙️ Settings → Data Sources → Add Data Source**  
 2. Select **Prometheus**  
-3. Set URL: `http://localhost:9090`  
-4. Click **Save & Test**
+3. Click **Save & Test**
 
 ---
 
