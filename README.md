@@ -8,7 +8,7 @@
 This project demonstrates a **real-time Linux server monitoring system** built on **WSL (Ubuntu 22.04)** using **Prometheus**, **Node Exporter**, and **Grafana**.  
 It enables real-time visualization of system metrics like CPU, memory, disk, and network usage while automating alerting and performance tracking.
 
-> 🚀 Reduced manual system inspection time by 70% through automated alerting and Grafana dashboards.
+> 🚀 Reduced manual system inspection time by 70% through Grafana dashboards.
 
 ---
 
